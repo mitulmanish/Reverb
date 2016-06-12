@@ -1,0 +1,527 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DD5B376E1D0D28E700E950AB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD5B376D1D0D28E700E950AB /* AppDelegate.swift */; };
+		DD5B37701D0D28E700E950AB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD5B376F1D0D28E700E950AB /* ViewController.swift */; };
+		DD5B37731D0D28E700E950AB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD5B37711D0D28E700E950AB /* Main.storyboard */; };
+		DD5B37761D0D28E700E950AB /* Reverb.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DD5B37741D0D28E700E950AB /* Reverb.xcdatamodeld */; };
+		DD5B37781D0D28E700E950AB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD5B37771D0D28E700E950AB /* Assets.xcassets */; };
+		DD5B377B1D0D28E700E950AB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD5B37791D0D28E700E950AB /* LaunchScreen.storyboard */; };
+		DD5B37861D0D28E800E950AB /* ReverbTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD5B37851D0D28E800E950AB /* ReverbTests.swift */; };
+		DD5B37911D0D28E800E950AB /* ReverbUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD5B37901D0D28E800E950AB /* ReverbUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DD5B37821D0D28E800E950AB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DD5B37621D0D28E700E950AB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DD5B37691D0D28E700E950AB;
+			remoteInfo = Reverb;
+		};
+		DD5B378D1D0D28E800E950AB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DD5B37621D0D28E700E950AB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DD5B37691D0D28E700E950AB;
+			remoteInfo = Reverb;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DD5B376A1D0D28E700E950AB /* Reverb.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Reverb.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD5B376D1D0D28E700E950AB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DD5B376F1D0D28E700E950AB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DD5B37721D0D28E700E950AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DD5B37751D0D28E700E950AB /* Reverb.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Reverb.xcdatamodel; sourceTree = "<group>"; };
+		DD5B37771D0D28E700E950AB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DD5B377A1D0D28E700E950AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DD5B377C1D0D28E700E950AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD5B37811D0D28E800E950AB /* ReverbTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReverbTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD5B37851D0D28E800E950AB /* ReverbTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReverbTests.swift; sourceTree = "<group>"; };
+		DD5B37871D0D28E800E950AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD5B378C1D0D28E800E950AB /* ReverbUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReverbUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD5B37901D0D28E800E950AB /* ReverbUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReverbUITests.swift; sourceTree = "<group>"; };
+		DD5B37921D0D28E800E950AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DD5B37671D0D28E700E950AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD5B377E1D0D28E800E950AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD5B37891D0D28E800E950AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DD5B37611D0D28E700E950AB = {
+			isa = PBXGroup;
+			children = (
+				DD5B376C1D0D28E700E950AB /* Reverb */,
+				DD5B37841D0D28E800E950AB /* ReverbTests */,
+				DD5B378F1D0D28E800E950AB /* ReverbUITests */,
+				DD5B376B1D0D28E700E950AB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DD5B376B1D0D28E700E950AB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DD5B376A1D0D28E700E950AB /* Reverb.app */,
+				DD5B37811D0D28E800E950AB /* ReverbTests.xctest */,
+				DD5B378C1D0D28E800E950AB /* ReverbUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DD5B376C1D0D28E700E950AB /* Reverb */ = {
+			isa = PBXGroup;
+			children = (
+				DD5B376D1D0D28E700E950AB /* AppDelegate.swift */,
+				DD5B376F1D0D28E700E950AB /* ViewController.swift */,
+				DD5B37711D0D28E700E950AB /* Main.storyboard */,
+				DD5B37771D0D28E700E950AB /* Assets.xcassets */,
+				DD5B37791D0D28E700E950AB /* LaunchScreen.storyboard */,
+				DD5B377C1D0D28E700E950AB /* Info.plist */,
+				DD5B37741D0D28E700E950AB /* Reverb.xcdatamodeld */,
+			);
+			path = Reverb;
+			sourceTree = "<group>";
+		};
+		DD5B37841D0D28E800E950AB /* ReverbTests */ = {
+			isa = PBXGroup;
+			children = (
+				DD5B37851D0D28E800E950AB /* ReverbTests.swift */,
+				DD5B37871D0D28E800E950AB /* Info.plist */,
+			);
+			path = ReverbTests;
+			sourceTree = "<group>";
+		};
+		DD5B378F1D0D28E800E950AB /* ReverbUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DD5B37901D0D28E800E950AB /* ReverbUITests.swift */,
+				DD5B37921D0D28E800E950AB /* Info.plist */,
+			);
+			path = ReverbUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DD5B37691D0D28E700E950AB /* Reverb */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD5B37951D0D28E800E950AB /* Build configuration list for PBXNativeTarget "Reverb" */;
+			buildPhases = (
+				DD5B37661D0D28E700E950AB /* Sources */,
+				DD5B37671D0D28E700E950AB /* Frameworks */,
+				DD5B37681D0D28E700E950AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Reverb;
+			productName = Reverb;
+			productReference = DD5B376A1D0D28E700E950AB /* Reverb.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DD5B37801D0D28E800E950AB /* ReverbTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD5B37981D0D28E800E950AB /* Build configuration list for PBXNativeTarget "ReverbTests" */;
+			buildPhases = (
+				DD5B377D1D0D28E800E950AB /* Sources */,
+				DD5B377E1D0D28E800E950AB /* Frameworks */,
+				DD5B377F1D0D28E800E950AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DD5B37831D0D28E800E950AB /* PBXTargetDependency */,
+			);
+			name = ReverbTests;
+			productName = ReverbTests;
+			productReference = DD5B37811D0D28E800E950AB /* ReverbTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DD5B378B1D0D28E800E950AB /* ReverbUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD5B379B1D0D28E800E950AB /* Build configuration list for PBXNativeTarget "ReverbUITests" */;
+			buildPhases = (
+				DD5B37881D0D28E800E950AB /* Sources */,
+				DD5B37891D0D28E800E950AB /* Frameworks */,
+				DD5B378A1D0D28E800E950AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DD5B378E1D0D28E800E950AB /* PBXTargetDependency */,
+			);
+			name = ReverbUITests;
+			productName = ReverbUITests;
+			productReference = DD5B378C1D0D28E800E950AB /* ReverbUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DD5B37621D0D28E700E950AB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Mitul Manish";
+				TargetAttributes = {
+					DD5B37691D0D28E700E950AB = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = RNF8E69GKB;
+					};
+					DD5B37801D0D28E800E950AB = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = RNF8E69GKB;
+						TestTargetID = DD5B37691D0D28E700E950AB;
+					};
+					DD5B378B1D0D28E800E950AB = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = RNF8E69GKB;
+						TestTargetID = DD5B37691D0D28E700E950AB;
+					};
+				};
+			};
+			buildConfigurationList = DD5B37651D0D28E700E950AB /* Build configuration list for PBXProject "Reverb" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DD5B37611D0D28E700E950AB;
+			productRefGroup = DD5B376B1D0D28E700E950AB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DD5B37691D0D28E700E950AB /* Reverb */,
+				DD5B37801D0D28E800E950AB /* ReverbTests */,
+				DD5B378B1D0D28E800E950AB /* ReverbUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DD5B37681D0D28E700E950AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD5B377B1D0D28E700E950AB /* LaunchScreen.storyboard in Resources */,
+				DD5B37781D0D28E700E950AB /* Assets.xcassets in Resources */,
+				DD5B37731D0D28E700E950AB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD5B377F1D0D28E800E950AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD5B378A1D0D28E800E950AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DD5B37661D0D28E700E950AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD5B37701D0D28E700E950AB /* ViewController.swift in Sources */,
+				DD5B37761D0D28E700E950AB /* Reverb.xcdatamodeld in Sources */,
+				DD5B376E1D0D28E700E950AB /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD5B377D1D0D28E800E950AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD5B37861D0D28E800E950AB /* ReverbTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD5B37881D0D28E800E950AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD5B37911D0D28E800E950AB /* ReverbUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DD5B37831D0D28E800E950AB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DD5B37691D0D28E700E950AB /* Reverb */;
+			targetProxy = DD5B37821D0D28E800E950AB /* PBXContainerItemProxy */;
+		};
+		DD5B378E1D0D28E800E950AB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DD5B37691D0D28E700E950AB /* Reverb */;
+			targetProxy = DD5B378D1D0D28E800E950AB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DD5B37711D0D28E700E950AB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DD5B37721D0D28E700E950AB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DD5B37791D0D28E700E950AB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DD5B377A1D0D28E700E950AB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DD5B37931D0D28E800E950AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DD5B37941D0D28E800E950AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DD5B37961D0D28E800E950AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Reverb/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mitulmanish.Reverb;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DD5B37971D0D28E800E950AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Reverb/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mitulmanish.Reverb;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DD5B37991D0D28E800E950AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ReverbTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mitulmanish.ReverbTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Reverb.app/Reverb";
+			};
+			name = Debug;
+		};
+		DD5B379A1D0D28E800E950AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ReverbTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mitulmanish.ReverbTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Reverb.app/Reverb";
+			};
+			name = Release;
+		};
+		DD5B379C1D0D28E800E950AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ReverbUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mitulmanish.ReverbUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Reverb;
+			};
+			name = Debug;
+		};
+		DD5B379D1D0D28E800E950AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ReverbUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mitulmanish.ReverbUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Reverb;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DD5B37651D0D28E700E950AB /* Build configuration list for PBXProject "Reverb" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD5B37931D0D28E800E950AB /* Debug */,
+				DD5B37941D0D28E800E950AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD5B37951D0D28E800E950AB /* Build configuration list for PBXNativeTarget "Reverb" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD5B37961D0D28E800E950AB /* Debug */,
+				DD5B37971D0D28E800E950AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DD5B37981D0D28E800E950AB /* Build configuration list for PBXNativeTarget "ReverbTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD5B37991D0D28E800E950AB /* Debug */,
+				DD5B379A1D0D28E800E950AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DD5B379B1D0D28E800E950AB /* Build configuration list for PBXNativeTarget "ReverbUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD5B379C1D0D28E800E950AB /* Debug */,
+				DD5B379D1D0D28E800E950AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		DD5B37741D0D28E700E950AB /* Reverb.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				DD5B37751D0D28E700E950AB /* Reverb.xcdatamodel */,
+			);
+			currentVersion = DD5B37751D0D28E700E950AB /* Reverb.xcdatamodel */;
+			path = Reverb.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = DD5B37621D0D28E700E950AB /* Project object */;
+}
