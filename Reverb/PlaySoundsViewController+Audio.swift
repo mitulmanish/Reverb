@@ -1,9 +1,11 @@
 //
 //  PlaySoundsViewController+Audio.swift
-//  PitchPerfect
+//  Reverb
 //
-//  Copyright © 2016 Udacity. All rights reserved.
+//  Created by Mitul Manish on 12/06/2016.
+//  Copyright © 2016 Mitul Manish. All rights reserved.
 //
+
 import UIKit
 import AVFoundation
 
