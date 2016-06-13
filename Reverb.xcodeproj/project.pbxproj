@@ -7,8 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DD58DA161D0D8CEB000400FD /* PlaySoundsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD58DA151D0D8CEB000400FD /* PlaySoundsViewController.swift */; };
+		DD58DA181D0D92E4000400FD /* PlaySoundsViewController+Audio.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD58DA171D0D92E4000400FD /* PlaySoundsViewController+Audio.swift */; };
 		DD5B376E1D0D28E700E950AB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD5B376D1D0D28E700E950AB /* AppDelegate.swift */; };
-		DD5B37701D0D28E700E950AB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD5B376F1D0D28E700E950AB /* ViewController.swift */; };
+		DD5B37701D0D28E700E950AB /* RecordSoundViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD5B376F1D0D28E700E950AB /* RecordSoundViewController.swift */; };
 		DD5B37731D0D28E700E950AB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD5B37711D0D28E700E950AB /* Main.storyboard */; };
 		DD5B37761D0D28E700E950AB /* Reverb.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DD5B37741D0D28E700E950AB /* Reverb.xcdatamodeld */; };
 		DD5B37781D0D28E700E950AB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD5B37771D0D28E700E950AB /* Assets.xcassets */; };
@@ -35,9 +37,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DD58DA151D0D8CEB000400FD /* PlaySoundsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaySoundsViewController.swift; sourceTree = "<group>"; };
+		DD58DA171D0D92E4000400FD /* PlaySoundsViewController+Audio.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "PlaySoundsViewController+Audio.swift"; sourceTree = "<group>"; };
 		DD5B376A1D0D28E700E950AB /* Reverb.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Reverb.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD5B376D1D0D28E700E950AB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		DD5B376F1D0D28E700E950AB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DD5B376F1D0D28E700E950AB /* RecordSoundViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordSoundViewController.swift; sourceTree = "<group>"; };
 		DD5B37721D0D28E700E950AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DD5B37751D0D28E700E950AB /* Reverb.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Reverb.xcdatamodel; sourceTree = "<group>"; };
 		DD5B37771D0D28E700E950AB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -99,13 +103,15 @@
 		DD5B376C1D0D28E700E950AB /* Reverb */ = {
 			isa = PBXGroup;
 			children = (
+				DD58DA171D0D92E4000400FD /* PlaySoundsViewController+Audio.swift */,
 				DD5B376D1D0D28E700E950AB /* AppDelegate.swift */,
-				DD5B376F1D0D28E700E950AB /* ViewController.swift */,
+				DD5B376F1D0D28E700E950AB /* RecordSoundViewController.swift */,
 				DD5B37711D0D28E700E950AB /* Main.storyboard */,
 				DD5B37771D0D28E700E950AB /* Assets.xcassets */,
 				DD5B37791D0D28E700E950AB /* LaunchScreen.storyboard */,
 				DD5B377C1D0D28E700E950AB /* Info.plist */,
 				DD5B37741D0D28E700E950AB /* Reverb.xcdatamodeld */,
+				DD58DA151D0D8CEB000400FD /* PlaySoundsViewController.swift */,
 			);
 			path = Reverb;
 			sourceTree = "<group>";
@@ -262,9 +268,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DD5B37701D0D28E700E950AB /* ViewController.swift in Sources */,
+				DD5B37701D0D28E700E950AB /* RecordSoundViewController.swift in Sources */,
 				DD5B37761D0D28E700E950AB /* Reverb.xcdatamodeld in Sources */,
 				DD5B376E1D0D28E700E950AB /* AppDelegate.swift in Sources */,
+				DD58DA181D0D92E4000400FD /* PlaySoundsViewController+Audio.swift in Sources */,
+				DD58DA161D0D8CEB000400FD /* PlaySoundsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -491,6 +499,7 @@
 				DD5B37971D0D28E800E950AB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DD5B37981D0D28E800E950AB /* Build configuration list for PBXNativeTarget "ReverbTests" */ = {
 			isa = XCConfigurationList;
@@ -499,6 +508,7 @@
 				DD5B379A1D0D28E800E950AB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DD5B379B1D0D28E800E950AB /* Build configuration list for PBXNativeTarget "ReverbUITests" */ = {
 			isa = XCConfigurationList;
@@ -507,6 +517,7 @@
 				DD5B379D1D0D28E800E950AB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
