@@ -7,7 +7,7 @@
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
-        <!--Record Sound View Controller-->
+        <!--Record-->
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="RecordSoundViewController" customModule="Reverb" customModuleProvider="target" sceneMemberID="viewController">
@@ -24,7 +24,7 @@
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="jmR-dm-dPi" secondAttribute="height" multiplier="1:1" id="Cwe-GR-lK4"/>
                                 </constraints>
-                                <state key="normal" image="Microphone 2-96"/>
+                                <state key="normal" image="Play Filled-96"/>
                                 <connections>
                                     <action selector="recordButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="k6y-rx-lWu"/>
                                 </connections>
@@ -32,28 +32,37 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tap to record" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="s3j-xI-eCf">
                                 <rect key="frame" x="249" y="370" width="103" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7wn-qg-Ogf">
-                                <rect key="frame" x="275" y="405" width="50" height="50"/>
-                                <state key="normal" backgroundImage="Stop Filled-50"/>
+                                <rect key="frame" x="252" y="405" width="96" height="96"/>
+                                <state key="normal" backgroundImage="Stop Filled"/>
                                 <connections>
                                     <action selector="recordingStopped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="wGn-e7-bUk"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="REVERB" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TWy-yF-iru">
+                                <rect key="frame" x="248" y="119" width="104" height="34"/>
+                                <fontDescription key="fontDescription" type="system" weight="light" pointSize="28"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="0.40000000000000002" green="0.59999999999999998" blue="0.80000000000000004" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
+                            <constraint firstItem="TWy-yF-iru" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="29S-Li-w1U"/>
                             <constraint firstItem="7wn-qg-Ogf" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="43D-gW-r7P"/>
                             <constraint firstItem="jmR-dm-dPi" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="e82-T7-HdD"/>
                             <constraint firstItem="s3j-xI-eCf" firstAttribute="top" secondItem="jmR-dm-dPi" secondAttribute="bottom" constant="22" id="o93-Mm-rmL"/>
                             <constraint firstItem="s3j-xI-eCf" firstAttribute="centerX" secondItem="jmR-dm-dPi" secondAttribute="centerX" id="oxW-88-q3e"/>
                             <constraint firstItem="7wn-qg-Ogf" firstAttribute="top" secondItem="s3j-xI-eCf" secondAttribute="bottom" constant="14" id="qZG-n4-tdi"/>
+                            <constraint firstItem="TWy-yF-iru" firstAttribute="trailing" secondItem="s3j-xI-eCf" secondAttribute="trailing" id="rnb-j9-Xfy"/>
                             <constraint firstItem="jmR-dm-dPi" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="s2Z-KZ-BVZ"/>
+                            <constraint firstItem="TWy-yF-iru" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="55" id="uzQ-Uu-sfp"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" id="6Ct-dj-fAB"/>
+                    <navigationItem key="navigationItem" title="Record" id="6Ct-dj-fAB"/>
                     <connections>
                         <outlet property="recordButton" destination="jmR-dm-dPi" id="QVh-q9-6ug"/>
                         <outlet property="recordingLabel" destination="s3j-xI-eCf" id="nFa-Yv-XVc"/>
@@ -197,8 +206,8 @@
         </scene>
     </scenes>
     <resources>
-        <image name="Microphone 2-96" width="96" height="96"/>
-        <image name="Stop Filled-50" width="50" height="50"/>
+        <image name="Play Filled-96" width="96" height="96"/>
+        <image name="Stop Filled" width="96" height="96"/>
         <image name="chipmunk_100" width="100" height="100"/>
         <image name="darthvader_100" width="100" height="100"/>
         <image name="echo_100" width="100" height="100"/>

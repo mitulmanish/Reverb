@@ -80,6 +80,35 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DD03CBCC1D23EA60000AFD3F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				DD58DA171D0D92E4000400FD /* PlaySoundsViewController+Audio.swift */,
+				DD5B376F1D0D28E700E950AB /* RecordSoundViewController.swift */,
+				DD58DA151D0D8CEB000400FD /* PlaySoundsViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		DD03CBCD1D23EA6B000AFD3F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DD5B377C1D0D28E700E950AB /* Info.plist */,
+				DD5B37741D0D28E700E950AB /* Reverb.xcdatamodeld */,
+				DD5B376D1D0D28E700E950AB /* AppDelegate.swift */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DD03CBCE1D23EA98000AFD3F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DD5B37711D0D28E700E950AB /* Main.storyboard */,
+				DD5B37791D0D28E700E950AB /* LaunchScreen.storyboard */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
 		DD5B37611D0D28E700E950AB = {
 			isa = PBXGroup;
 			children = (
@@ -103,15 +132,10 @@
 		DD5B376C1D0D28E700E950AB /* Reverb */ = {
 			isa = PBXGroup;
 			children = (
-				DD58DA171D0D92E4000400FD /* PlaySoundsViewController+Audio.swift */,
-				DD5B376D1D0D28E700E950AB /* AppDelegate.swift */,
-				DD5B376F1D0D28E700E950AB /* RecordSoundViewController.swift */,
-				DD5B37711D0D28E700E950AB /* Main.storyboard */,
+				DD03CBCE1D23EA98000AFD3F /* View */,
+				DD03CBCD1D23EA6B000AFD3F /* Supporting Files */,
+				DD03CBCC1D23EA60000AFD3F /* Controller */,
 				DD5B37771D0D28E700E950AB /* Assets.xcassets */,
-				DD5B37791D0D28E700E950AB /* LaunchScreen.storyboard */,
-				DD5B377C1D0D28E700E950AB /* Info.plist */,
-				DD5B37741D0D28E700E950AB /* Reverb.xcdatamodeld */,
-				DD58DA151D0D8CEB000400FD /* PlaySoundsViewController.swift */,
 			);
 			path = Reverb;
 			sourceTree = "<group>";

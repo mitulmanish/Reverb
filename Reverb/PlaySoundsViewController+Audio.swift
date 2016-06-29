@@ -36,7 +36,6 @@ extension PlaySoundsViewController: AVAudioPlayerDelegate {
         } catch {
             showAlert(Alerts.AudioFileError, message: String(error))
         }
-        print("Audio has been setup")
     }
     
     func playSound(rate rate: Float? = nil, pitch: Float? = nil, echo: Bool = false, reverb: Bool = false) {
@@ -167,8 +166,6 @@ extension PlaySoundsViewController: AVAudioPlayerDelegate {
         alert.addAction(UIAlertAction(title: Alerts.DismissAlert, style: .Default, handler: nil))
         self.presentViewController(alert, animated: true, completion: nil)
     }
-
-    
 }
 
 

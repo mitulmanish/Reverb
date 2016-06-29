@@ -34,7 +34,6 @@ class RecordSoundViewController: UIViewController, AVAudioRecorderDelegate {
     
     @IBAction func recordButtonPressed(sender: UIButton) {
         
-        print("I just pressed the record button !")
         recordingLabel.text = "Recording .."
         stopRecordingButton.enabled = true
         recordButton.enabled = false
@@ -43,7 +42,6 @@ class RecordSoundViewController: UIViewController, AVAudioRecorderDelegate {
         let recordingName = "recordedVoice.wav"
         let pathArray = [dirPath, recordingName]
         let filePath = NSURL.fileURLWithPathComponents(pathArray)
-        print(filePath)
         
         let session = AVAudioSession.sharedInstance()
         try! session.setCategory(AVAudioSessionCategoryPlayAndRecord)
@@ -53,7 +51,6 @@ class RecordSoundViewController: UIViewController, AVAudioRecorderDelegate {
         audioRecorder.meteringEnabled = true
         audioRecorder.prepareToRecord()
         audioRecorder.record()
-        print("recording....")
     }
     
     
@@ -61,7 +58,6 @@ class RecordSoundViewController: UIViewController, AVAudioRecorderDelegate {
         recordButton.enabled = true
         recordingLabel.text = "Tap to record"
         stopRecordingButton.enabled = false
-        print("Stopped !")
         
         audioRecorder.stop()
         let audioSession = AVAudioSession.sharedInstance()
@@ -73,7 +69,7 @@ class RecordSoundViewController: UIViewController, AVAudioRecorderDelegate {
             self.performSegueWithIdentifier("seguePlay", sender: audioRecorder.url)
             
         }else {
-            print ("Recording failed !")
+            print("Recording failed !")
             
         }
     }
