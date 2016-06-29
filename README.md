@@ -3,6 +3,10 @@ Fun iOS app using AVFoundation written in Swift 2.2
 
 Record your voice and play it in different tones
 
+* Sample Demo
+
+![reverbdemo](https://cloud.githubusercontent.com/assets/8016341/16459502/48992ecc-3e66-11e6-99cc-02162196aef6.gif)
+
 * Record Scene
 
 ![record](https://cloud.githubusercontent.com/assets/8016341/16451010/bc0b1afa-3e43-11e6-9cfa-4c1c89e34075.jpeg)
